@@ -15,8 +15,6 @@ func Ordinal(number int) string {
 		return fmt.Sprintf("%dst", number)
 	} else if lastDigit == 2 {
 		return fmt.Sprintf("%dnd", number)
-	} else if lastDigit == 3 {
-		return fmt.Sprintf("%drd", number)
 	} else {
 		return fmt.Sprintf("%dth", number)
 	}
